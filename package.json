@@ -1,0 +1,24 @@
+{
+  "name": "automation_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "start": "node dist/src/main.js",
+    "build": "tsc --project ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sessionbox/toolkit": "^0.0.5",
+    "dotenv": "^16.3.1",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.12.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/selenium-webdriver": "^4.1.16"
+  }
+}
